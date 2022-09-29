@@ -13,4 +13,3 @@ function greet() {
 }
 
 console.log(greeting);
-
