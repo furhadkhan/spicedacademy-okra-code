@@ -56,16 +56,56 @@ h1 {
   font-style: italic;
 }
 
-.box {
-  padding-top: 30px;
-  background-color: darkgray;
-  position: relative;
-  display: block;
+.container {
+  background-color: lightgrey;
+  display: table;
+  height: 50vh;
   width: 100%;
-  height: 50%;
   border: 1px solid black;
-  position: absolute;
   z-index: -1;
+}
+
+.column-one {
+  display: table-cell;
+  display: inline;
+  width: 25%;
+  padding: 10px;
+  float: left;
+}
+
+.column.two {
+  display: table-cell;
+  display: inline;
+  width: 25%;
+  padding: 10px;
+  float: right;
+}
+
+.container-two {
+  display: table-cell;
+  text-align: end;
+}
+
+#cat {
+  height: 100px;
+}
+
+#atlas {
+  height: 100px;
+}
+
+#swim {
+  height: 100px;
+}
+
+#building {
+  height: 100px;
+}
+
+.container.column {
+  display: table-cell;
+  top: 0;
+  left: 0;
 }
 
 footer {
