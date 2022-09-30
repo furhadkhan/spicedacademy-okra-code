@@ -1,0 +1,94 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  text-align: center;
+  padding: 10px;
+  background-color: #01937c;
+}
+
+#quotes-container {
+  width: 90%;
+  margin: 0 5%;
+  text-align: center;
+}
+
+.quote {
+  width: 350px;
+  min-height: 200px;
+  display: inline-block;
+  margin: 10px 15px;
+  margin-right: 0px;
+  border: 3px solid #faf1e6;
+  border-radius: 12px;
+  background-color: #01937c;
+  overflow: hidden;
+}
+
+h1 {
+  width: 100%;
+  text-align: center;
+  margin: 20px 0px;
+  color: #faf1e6;
+  font-size: 42px;
+}
+
+h2,
+p {
+  text-align: center;
+  padding: 10px 15px;
+  margin: 10px 0px;
+  border-radius: 12px;
+  background-color: transparent;
+}
+
+p {
+  color: #faf1e6;
+  font-size: small;
+}
+h2 {
+  color: #ffc074;
+  font-weight: 500;
+  font-style: italic;
+}
+
+@media screen and (max-width: 1024px) {
+  body {
+    background-color: #ffc074;
+  }
+  .quote {
+    width: 90%;
+    border: 5px double blue;
+    background-color: antiquewhite;
+  }
+
+  h2 {
+    color: black;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  body {
+    background-color: red;
+  }
+  .quote {
+    border: 5px dotted goldenrod;
+    background-color: aqua;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  body {
+    background-color: black;
+  }
+  .quote {
+    border: 5px inset gray;
+    background-color: darkgoldenrod;
+  }
+  h2 {
+    color: green;
+  }
+}

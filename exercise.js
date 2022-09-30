@@ -1,10 +1,10 @@
-function sum(a, b) {
-var result = a + b;
-return result;
-}
-const result = sum();
+function sum(a,b) {
+result = a + b;
 console.log(result);
- 
+}
+let result = sum();
+console.log(result);
+
 var waitThenRun = function () {
      console.log('Hello!');
      waitThenRun(function()) {
